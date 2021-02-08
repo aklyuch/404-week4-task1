@@ -1,0 +1,8 @@
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrapper_common {
+    margin-bottom: 102px;
+}

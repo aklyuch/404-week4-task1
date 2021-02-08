@@ -1,0 +1,24 @@
+.general-menu__items {
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+    display: flex;
+}
+
+.general-menu__item {
+    font-size: 14px;
+    line-height: 1.3em;
+    margin-right: 55px;
+}
+
+.general-menu__item:last-of-type {
+    margin-right: 0;
+}
+
+.general-menu__item-link {
+    text-decoration: none;
+}
+
+.general-menu__item-link_active {
+    color:#D3A557;
+}

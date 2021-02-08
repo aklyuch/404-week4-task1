@@ -1,0 +1,35 @@
+.address {
+    margin-top: -5px;
+    margin-left: auto;
+    text-align: right;
+}
+
+
+.address__phone-link {
+    font-size: 26px;
+    line-height: 1;
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+    padding-bottom: 2px;
+}
+
+.address__schedule {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.address__desc {
+    font-size: 11px;
+    color: #9a9a9a;
+    line-height: 1;
+    margin-bottom: 8px;
+    font-style: normal;
+}
+
+.address__schedule-link {
+    font-size: 13px;
+    color: inherit;
+    font-style: normal;
+}

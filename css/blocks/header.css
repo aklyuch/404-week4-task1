@@ -1,0 +1,19 @@
+.header_main-wrapper {
+    margin-bottom: 190px;
+    padding-top: 27px;
+}
+
+.header_common-wrapper {
+    padding-top: 27px;
+    padding-bottom: 25px;
+    margin-bottom: 58px;
+    background-image: url('../../img/backgrounds/lion-head-wide.png');
+    background-position: right -345px top -5px;
+    background-repeat: no-repeat;
+}
+
+.header__title {
+    font-size: 72px;
+    line-height: 1.36em;
+    margin-bottom: 103px;
+}

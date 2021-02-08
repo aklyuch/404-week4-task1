@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ul li {
+    margin:0;
+    padding:0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.container  {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container_wider {
+    width: 1200px;
+}
+
+.container_theme-white {
+    color: #303030;
+    background-color: #FFFFFF;
+}
+
+.container_theme-gray {
+    color: #303030;
+    background-color: #f5f5f5;
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #29282D;
+    color: #FFFFFF;
+}
+
+.wrapper_main {
+    background-image: url('../../img/backgrounds/lion-header.jpg'), url('../../img/backgrounds/bottom-pic-1.png');
+    background-position: center top, right -340px bottom 250px;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.wrapper_common {
+    background-color: #FFFFFF;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #D3A557;
+}

@@ -1,0 +1,21 @@
+.hero_main-wrapper {
+    margin-bottom: 186px;
+}
+
+.hero__inner-wrapper {
+    width: 505px;
+}
+
+.hero__title {
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 1.12em;
+    margin-bottom: 25px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 44px;
+    color: #D3A557;
+}

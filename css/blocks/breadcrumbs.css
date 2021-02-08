@@ -1,0 +1,18 @@
+.breadcrumbs {
+    color: #9a9a9a;
+    display: flex;
+    font-size: 14px;
+}
+
+.breadcrumbs__item:not(:last-of-type)::after {
+    content: "\00a0/\00a0";
+    line-height: 1.17em;
+}
+
+.breadcrumbs__item_active {
+    font-weight: bold;
+}
+
+.breadcrumbs__link {
+    color: inherit;
+}

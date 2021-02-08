@@ -1,0 +1,42 @@
+.about {
+    position: relative;
+    margin-bottom: 53px;
+}
+
+.about_wrapper {
+    padding-top:96px;
+}
+
+.about__image {
+    width: 490px;
+    height: 505px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.about-description {
+    position: relative;
+    margin-left: auto;
+    width: 785px;
+    min-height: 455px;
+    background-color: #202123;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 70px 81px 68px;
+    z-index: 1;
+}
+
+.about-description__title {
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: bold;
+    margin: 0 0 37px;
+}
+
+.about-description__subtitle {
+    width:544px;
+    margin: 0 0 71px;
+    font-size: 16px;
+    line-height: 27px;
+}
