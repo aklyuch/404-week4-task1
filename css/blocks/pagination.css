@@ -13,6 +13,10 @@
     justify-content: center;
 }
 
+.pagination_wrapper-testimonial {
+    margin-bottom: 86px;
+}
+
 .pagination__item {
     margin: 0;
 }

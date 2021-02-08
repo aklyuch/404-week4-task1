@@ -1,0 +1,15 @@
+.slogan_wrapper {
+    color: #202020;
+    padding: 84px 0;
+    background: url('../../img/backgrounds/phone-n-hand.png');
+    background-color: #E5C288;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.slogan__text {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.35em;
+    width: 40%;
+}

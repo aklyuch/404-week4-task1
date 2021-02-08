@@ -1,0 +1,11 @@
+.intro {
+    display: block;
+    margin-top: 250px;
+    transition: height 1s cubic-bezier(.37, 0.39, .19, 1.43);
+    animation-delay: 3s;
+    position: absolute;
+}
+
+.intro__logo {
+    margin-bottom: 59px;
+}

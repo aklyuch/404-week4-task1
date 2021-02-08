@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     margin: 0;
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -16,6 +18,10 @@ h1, h2, h3, h4, h5, h6, ul, ul li {
 
 ul li {
     list-style-type: none;
+}
+
+input {
+    border: none;
 }
 
 .container  {
@@ -46,6 +52,15 @@ ul li {
     flex-direction: column;
     background-color: #29282D;
     color: #FFFFFF;
+}
+
+.wrapper_index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../img/backgrounds/flare.png'), url("../../img/backgrounds/splash.jpg");
+    background-position: center right 100px, center center;
+    background-repeat: no-repeat;
 }
 
 .wrapper_main {

@@ -7,6 +7,8 @@
     font-size: 14px;
     font-weight: bold;
     box-sizing: border-box;
+    color: white;
+    border: none;
 }
 
 .button:hover {
@@ -29,8 +31,17 @@
     background-color: #2B2B2B;
 }
 
+.button_reset {
+    padding: 17px 40px;
+    background-color: #8E8E8E;
+}
+
 .button_secondary {
     padding: 17px 40px;
     background-color: #2B2B2B;
     box-shadow: 0 8px 35px rgba(223, 181, 109, 0.35);
+}
+
+.button_margin-left {
+    margin-left: 22px;
 }

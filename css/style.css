@@ -5,11 +5,15 @@
 @import url('common/nav-wrapper.css');
 @import url('common/general-menu.css');
 @import url('common/address.css');
+@import url('blocks/intro.css');
 @import url('blocks/header.css');
 @import url('blocks/breadcrumbs.css');
 @import url('blocks/hero.css');
+@import url('blocks/slogan.css');
 @import url('blocks/proposals.css');
 @import url('blocks/services.css');
+@import url('blocks/testimonials.css');
+@import url('blocks/testimonial.css');
 @import url('blocks/partners.css');
 @import url('blocks/proposal.css');
 @import url('blocks/news.css');
