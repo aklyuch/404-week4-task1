@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     margin: 0;
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -21,6 +19,10 @@ ul li {
 }
 
 input {
+    border: none;
+}
+
+textarea {
     border: none;
 }
 
