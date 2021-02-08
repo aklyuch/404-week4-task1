@@ -30,7 +30,7 @@
     margin-right: 28px;
 }
 
-.testimonial__input:focus {
+.testimonial__input:focus, .testimonial__input-textarea:focus {
     border: 1px solid #E5C288;
     color: #1A1B1E;
 }

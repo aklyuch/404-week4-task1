@@ -1,4 +1,9 @@
 .testimonials__list {
+    margin-bottom: 71px;
+    columns: 2;
+}
+
+.testimonials__item-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -12,6 +17,7 @@
     padding: 50px 31px 32px;
     margin-bottom: 17px;
     border-radius: 5px;
+    break-inside: avoid;
 }
 
 .testimonials__image-wrapper {
