@@ -1,5 +1,5 @@
 .testimonials__list {
-    margin-bottom: 71px;
+    margin-bottom: 48px;
     columns: 2;
 }
 
@@ -8,7 +8,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: flex-start;
-    margin-bottom: 71px;
 }
 
 .testimonials__item {
@@ -40,9 +39,15 @@
     display: inline-block;
 }
 
-.testimonials__social-icon {
+.testimonials__social-link {
+    display: inline-block;
     vertical-align: bottom;
+    width: 30px;
+    height: 30px;
+    background: url('../../img/socials/social_sprites.png') -122px -122px;
 }
+
+
 
 .testimonials__main-data {
     display: flex;
