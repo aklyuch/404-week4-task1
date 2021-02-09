@@ -20,6 +20,14 @@
     top: 20px;
 }
 
+.address__schedule:hover .address__window {
+    opacity: 1;
+}
+
+.address__schedule:hover .address__schedule-link {
+    color: #D3A557;
+}
+
 .address__desc {
     font-size: 11px;
     color: #9a9a9a;
@@ -32,4 +40,38 @@
     font-size: 13px;
     color: inherit;
     font-style: normal;
+}
+
+.address__window {
+    color: black;
+    position: relative;
+    background-color: #EDEDED;
+    width: 160px;
+    padding: 11px 17px 14px;
+    border-radius: 4px;
+    top: 10px;
+    font-style: normal;
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.61em;
+    opacity: 0;
+    transition: opacity .4s linear;
+}
+
+.address__window:after {
+    content: '';
+    border: transparent 9px solid;
+    border-bottom: #EDEDED 9px solid;
+    position: absolute;
+    top: -18px;
+    right: 45px;
+}
+
+.address__window-days {
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.address__window-dinner {
+    font-weight: 600;
 }

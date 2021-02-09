@@ -3,6 +3,37 @@
     flex-direction: column;
 }
 
+.intro_wrapper {
+    animation: bounceIn 2s normal;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 1;
+}
+
+@keyframes bounceIn {
+    from {
+        transform: translateY(2000px);
+        animation-timing-function: ease-out;
+    }
+    50%, 80%, 100% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+    40% {
+        transform: translateY(-80px);
+        animation-timing-function: ease-in;
+    }
+    70% {
+        transform: translateY(-40px);
+        animation-timing-function: ease-in;
+    }
+    90% {
+        transform: translateY(-10px);
+        animation-timing-function: ease-in;
+    }
+}
+
 .intro__logo {
     margin-bottom: 59px;
 }
