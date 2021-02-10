@@ -22,6 +22,7 @@
 
 .address__schedule:hover .address__window {
     opacity: 1;
+    right: 0;
 }
 
 .address__schedule:hover .address__schedule-link {
@@ -55,6 +56,7 @@
     font-size: 13px;
     line-height: 1.61em;
     opacity: 0;
+    right:-9999px;
     transition: opacity .4s linear;
 }
 

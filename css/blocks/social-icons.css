@@ -11,38 +11,39 @@
     height:36px;
     line-height: 36px;
     font-size: 36px;
+    background: url("../../img/socials/social_sprites.png");
 }
 
 .social-icons__telegram {
-    background: url('../../img/socials/telegram.png');
+    background-position: -122px -10px;
 }
 
 .social-icons__telegram:hover {
-    background: url('../../img/socials/telegram-hover.png');
+    background-position: -122px -66px;
 }
 
 .social-icons__vkontakte {
-    background: url('../../img/socials/vk.png');
+    background-position: -10px -122px;
 }
 
 .social-icons__vkontakte:hover {
-    background: url('../../img/socials/vk-hover.png');
+    background-position: -66px -122px;
 }
 
 .social-icons__facebook {
-    background: url('../../img/socials/facebook.png');
+    background-position: -10px -10px;
 }
 
 .social-icons__facebook:hover {
-    background: url('../../img/socials/facebook-hover.png');
+    background-position: -66px -10px;
 }
 
 .social-icons__instagram {
-    background: url('../../img/socials/instagram.png');
+    background-position: -10px -66px;
 }
 
 .social-icons__instagram:hover {
-    background: url('../../img/socials/instagram-hover.png');
+    background-position: -66px -66px;
 }
 
 .social-icons__items {

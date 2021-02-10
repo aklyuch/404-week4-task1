@@ -48,16 +48,19 @@
 }
 
 .testimonial__service-text {
+    display: inline-block;
     color: #1A1B1E;
     font-size: 18px;
     line-height: 1.36em;
-    width: 700px;
+    min-width: 440px;
+    margin-top: 9px;
 }
 
 .testimonial__service-list {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 24px;
+    margin-right: -5px;
 }
 
 .testimonial__service-button {
@@ -67,6 +70,7 @@
     font-size: 13px;
     line-height: 1.36em;
     margin-bottom: 10px;
+    margin-right: 5px;
     color: #303030;
     border-radius: 35px;
     cursor: pointer;

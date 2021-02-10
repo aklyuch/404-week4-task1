@@ -22,7 +22,7 @@
 .testimonials__image-wrapper {
     height: 142px;
     width: 142px;
-    margin-right: 22px;
+    margin-right: 17px;
 }
 
 .testimonials__name {
@@ -66,7 +66,7 @@
 }
 
 .testimonials__service-wrapper {
-    margin-top: 32px;
+    margin-top: 29px;
 }
 
 .testimonials__service:last-of-type {

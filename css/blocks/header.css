@@ -12,8 +12,17 @@
     background-repeat: no-repeat;
 }
 
+.header_testimonials-wrapper {
+    margin-bottom: 100px;
+}
+
 .header__title {
     font-size: 72px;
     line-height: 1.36em;
     margin-bottom: 103px;
+}
+
+.header__title_testimonials {
+    margin-bottom: 117px;
+    margin-left: 4px;
 }
