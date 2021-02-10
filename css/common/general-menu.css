@@ -11,6 +11,10 @@
     margin-right: 55px;
 }
 
+.general-menu__items_testimonial .general-menu__item {
+    margin-right: 55px;
+}
+
 .general-menu__item:last-of-type {
     margin-right: 0;
 }
