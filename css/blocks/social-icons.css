@@ -12,38 +12,28 @@
     line-height: 36px;
     font-size: 36px;
     background: url("../../img/socials/social_sprites.png");
+    transition: filter .4s;
+}
+
+.social-icons__link:hover {
+    filter: brightness(2);
 }
 
 .social-icons__telegram {
     background-position: -122px -10px;
 }
 
-.social-icons__telegram:hover {
-    background-position: -122px -66px;
-}
-
 .social-icons__vkontakte {
     background-position: -10px -122px;
 }
 
-.social-icons__vkontakte:hover {
-    background-position: -66px -122px;
-}
 
 .social-icons__facebook {
     background-position: -10px -10px;
 }
 
-.social-icons__facebook:hover {
-    background-position: -66px -10px;
-}
-
 .social-icons__instagram {
     background-position: -10px -66px;
-}
-
-.social-icons__instagram:hover {
-    background-position: -66px -66px;
 }
 
 .social-icons__items {

@@ -29,6 +29,7 @@
     flex-grow: 1;
     max-width: 300px;
     filter: grayscale(1);
+    transition: filter .4s;
 }
 
 .partners__logo-wrapper:nth-child(4n) {

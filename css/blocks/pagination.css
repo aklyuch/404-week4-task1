@@ -43,10 +43,12 @@
     vertical-align: middle;
     color: inherit;
     text-decoration: none;
+    border-radius: 50%;
+
 }
 
 .pagination__link:hover, .pagination__link_active {
     color: #FFFFFF;
-    border-radius: 50%;
     background-color: #353439;
+    transition: background-color .4s;
 }

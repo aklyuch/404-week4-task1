@@ -21,6 +21,7 @@
 
 .general-menu__item-link {
     text-decoration: none;
+    transition: color .5s;
 }
 
 .general-menu__item-link_active {
