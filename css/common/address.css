@@ -12,6 +12,7 @@
     color: inherit;
     font-style: normal;
     padding-bottom: 2px;
+    transition: .4s;
 }
 
 .address__schedule {
