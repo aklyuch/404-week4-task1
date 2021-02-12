@@ -10,6 +10,7 @@
     color: white;
     border: none;
     transition: background-color .5s;
+    cursor: pointer;
 }
 
 .button:hover {

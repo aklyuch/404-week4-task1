@@ -49,10 +49,10 @@
                         <img src="img/testimonials/ivan_petrovich.png" alt="image" class="testimonials__image">
                     </div>
                     <div class="testimonials__service-wrapper">
-                        <div class="testimonials__name">Иван Петрович</div>
-                        <div class="testimonals__socials">
-
-                            <a href="#" class="testimonials__social-link"></a></div>
+                        <div class="testimonials__data-wrapper">
+                            <span class="testimonials__name">Иван Петрович</span>
+                            <a href="#" class="testimonials__social-link"></a>
+                        </div>
                         <ul class="testimonials__item-list">
                             <li class="testimonials__service">Карта базовая</li>
                             <li class="testimonials__service">Ипотека на 10 лет</li>
@@ -72,9 +72,10 @@
                         <img src="img/testimonials/liza-sidorova.png" alt="image" class="testimonials__image">
                     </div>
                     <div class="testimonials__service-wrapper">
-                        <div class="testimonials__name">Лиза Сидорова</div>
-                        <div class="testimonals__socials">
-                            <a href="#" class="testimonials__social-link"></a></div>
+                        <div class="testimonials__data-wrapper">
+                            <span class="testimonials__name">Лиза Сидорова</span>
+                            <a href="#" class="testimonials__social-link"></a>
+                        </div>
                         <ul class="testimonials__item-list">
                             <li class="testimonials__service">Карта оптима</li>
                         </ul>
@@ -92,9 +93,10 @@
                         <img src="img/testimonials/ekaterina-zhmyh.png" alt="image" class="testimonials__image">
                     </div>
                     <div class="testimonials__service-wrapper">
-                        <div class="testimonials__name">Екатерина Жмых</div>
-                        <div class="testimonals__socials">
-                            <a href="#" class="testimonials__social-link"></a></div>
+                        <div class="testimonials__data-wrapper">
+                            <span class="testimonials__name">Екатерина Жмых</span>
+                            <a href="#" class="testimonials__social-link"></a>
+                        </div>
                         <ul class="testimonials__item-list">
                             <li class="testimonials__service">Ипотека на 10 лет</li>
                         </ul>
@@ -113,9 +115,10 @@
                         <img src="img/testimonials/anton-igorevich.png" alt="image" class="testimonials__image">
                     </div>
                     <div class="testimonials__service-wrapper">
-                        <div class="testimonials__name">Антон Игоревич</div>
-                        <div class="testimonals__socials">
-                            <a href="#" class="testimonials__social-link"></a></div>
+                        <div class="testimonials__data-wrapper">
+                            <span class="testimonials__name">Антон Игоревич</span>
+                            <a href="#" class="testimonials__social-link"></a>
+                        </div>
                         <ul class="testimonials__item-list">
                             <li class="testimonials__service">Автокредит на 5 лет</li>
                         </ul>
@@ -158,7 +161,7 @@
     <section class="testimonial testimonial_wrapper">
         <div class="container ">
         <h3 class="testimonial__header">Оставьте отзыв</h3>
-        <form action="#">
+        <form action="#" class="testimonial__form">
             <div class="testimonial__input-wrapper">
                 <input type="text" id="name" class="testimonial__input" placeholder="Игорь Петрович |">
                 <input type="text" id="vk" class="testimonial__input" placeholder="Ссылка на профиль vk">
@@ -172,38 +175,56 @@
                             <input class="input-checkbox" type="checkbox" name="card-base" id="card-base">
                             <div class="testimonial__service-button">Карта базовая</div>
                         </label>
+                    </li>
+                    <li class="testimonial__service-item">
                         <label for="mortage-10">
                             <input class="input-checkbox" type="checkbox" name="mortage-10" id="mortage-10">
                             <div class="testimonial__service-button">Ипотека на 10 лет</div>
                         </label>
+                    </li>
+                    <li class="testimonial__service-item">
                         <label for="card-optima">
                             <input class="input-checkbox" type="checkbox" name="card-optima" id="card-optima">
                             <div class="testimonial__service-button">Карта оптима</div>
                         </label>
+                    </li>
+                    <li class="testimonial__service-item">
                         <label for="mortage-12">
                             <input class="input-checkbox" type="checkbox" name="mortage-12" id="mortage-12">
                             <div class="testimonial__service-button">Ипотека на 12 лет</div>
                         </label>
+                    </li>
+                    <li class="testimonial__service-item">
                         <label for="none">
                             <input class="input-checkbox" type="checkbox" name="none" id="none">
                             <div class="testimonial__service-button">Никакими</div>
                         </label>
+                    </li>
+                    <li class="testimonial__service-item">
                         <label for="mortage-20">
                             <input class="input-checkbox" type="checkbox" name="mortage-20" id="mortage-20">
                             <div class="testimonial__service-button">Ипотека на 20 лет</div>
                         </label>
+                    </li>
+                    <li class="testimonial__service-item">
                         <label for="other">
                             <input class="input-checkbox" type="checkbox" name="other" id="other">
                             <div class="testimonial__service-button">Другое</div>
                         </label>
+                    </li>
+                    <li class="testimonial__service-item">
                         <label for="insurance">
                             <input class="input-checkbox" type="checkbox" name="insurance" id="insurance">
                             <div class="testimonial__service-button">Страхование</div>
                         </label>
+                    </li>
+                    <li class="testimonial__service-item">
                         <label for="credit-card">
                             <input class="input-checkbox" type="checkbox" name="credit-card" id="credit-card">
                             <div class="testimonial__service-button">Кредитная карта</div>
                         </label>
+                    </li>
+                    <li class="testimonial__service-item">
                         <label for="auto-insurance">
                             <input class="input-checkbox" type="checkbox" name="auto-insurance" id="auto-insurance">
                             <div class="testimonial__service-button">Автокредит на 7 лет</div>
@@ -213,7 +234,7 @@
             </div>
             <div class="testimonial__button-wrapper">
                 <button type="reset" class="button button_reset">Очистить</button>
-                <button type="submit" class="button button_no-shadow button_margin-left">Подробнее</button>
+                <button type="submit" class="button button_no-shadow button_margin-left">Отправить</button>
             </div>
         </form>
         </div>

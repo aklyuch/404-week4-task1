@@ -23,11 +23,21 @@
 
 .address__schedule:hover .address__window {
     opacity: 1;
-    right: 0;
+    left: -64px;
 }
 
 .address__schedule:hover .address__schedule-link {
     color: #D3A557;
+}
+
+.address__schedule:hover .address__window:before {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 160px;
+    right: 0;
+    top: -15px;
+    position: absolute;
 }
 
 .address__desc {
@@ -46,18 +56,18 @@
 
 .address__window {
     color: black;
-    position: relative;
+    position: absolute;
     background-color: #EDEDED;
     width: 160px;
     padding: 11px 17px 14px;
     border-radius: 4px;
-    top: 10px;
+    top: 28px;
     font-style: normal;
     text-align: left;
     font-size: 13px;
     line-height: 1.61em;
     opacity: 0;
-    right:-9999px;
+    left:-9999px;
     transition: opacity .4s linear;
 }
 
