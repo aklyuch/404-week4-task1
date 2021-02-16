@@ -16,6 +16,31 @@
     transition: background-color .4s;
 }
 
+.services2__item {
+    padding: 40px 0px 38px;
+    display: flex;
+    margin-bottom: 28px;
+    min-height: 450px;
+    transition: background-color .4s;
+    position: relative;
+    background: none;
+}
+
+.services2__item * {
+    z-index: 10;
+}
+
+.services2__item:hover::after {
+    content:"";
+    width:calc(100% + 60px);
+    height:calc(100%);
+    position: absolute;
+    background-color: #F5F5F5;
+    left:-30px;
+    top:0;
+    z-index: 1;
+}
+
 .services__item:last-of-type {
     margin-bottom: 0;
 }
